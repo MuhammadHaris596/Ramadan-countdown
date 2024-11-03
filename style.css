@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "merriwet";
+  src: url(./assets/Merriweather-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "merriwet2";
+  src: url(./assets/Merriweather-Black.ttf);
+}
+@font-face {
+  font-family: "merriwet3";
+  src: url(./assets/Merriweather-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 153, 255);
+}
+section nav {
+  width: 100%;
+  height: 25%;
+  padding-top: 20px;
+}
+section nav .display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+}
+section nav .display .ramadan {
+  color: whitesmoke;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: "merriwet3";
+}
+section nav .display ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 20%;
+}
+section nav .display ul li {
+  color: white;
+  font-size: 15px;
+  font-family: "merriwet3";
+}
+section .container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container .container-child {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .container .container-child h3 {
+  line-height: 2;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-family: "merriwet";
+}
+section .container .container-child p {
+  line-height: 2;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+  font-family: "merriwet";
+}
+section .container .container-child p span {
+  color: yellowgreen;
+}
+section .container-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+section .container-2 .container-child-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .container-2 .dis {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .container-2 .dis .child {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+section .container-2 .dis .child .mont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .container-2 .Days-Month-Hour {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: -moz-max-content;
+  width: max-content;
+  justify-content: space-around;
+  margin-top: 3%;
+  width: 70%;
+  color: white;
+  font-size: 2em;
+  font-weight: 5;
+}/*# sourceMappingURL=style.css.map */

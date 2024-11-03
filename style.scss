@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "merriwet";
+    src: url(./assets/Merriweather-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "merriwet2";
+    src: url(./assets/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: "merriwet3";
+    src: url(./assets/Merriweather-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 153, 255);
+    
+nav{
+    width: 100%;
+    height: 25%;
+    padding-top: 20px;
+    
+
+    .display{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50%;
+       
+        .ramadan{
+            color: whitesmoke ;
+            font-size: 1.3em;
+            font-weight: 600;
+            font-family: "merriwet3";
+
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            width: 20%;
+           
+
+            li{
+                color: white;
+                font-size: 15px;
+                font-family: "merriwet3";
+                
+            
+
+            }
+        }
+    }
+}
+
+
+.container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-child{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+        h3{
+            line-height: 2;
+            height: max-content;
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            font-family: "merriwet";
+            
+        }
+        p{
+            line-height: 2;
+            height: max-content;
+            text-align: center;
+            color: white;
+            font-size: 1.3em;
+            font-family: "merriwet";
+
+            span{
+                color: yellowgreen;
+            }
+        }
+
+    }
+}
+
+
+.container-2{
+    width: 100%;
+    // height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+
+    .container-child-2{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dis{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .child{
+         width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        color: white;
+        font-size: 2em;
+        font-weight: 700;
+        
+
+        .mont{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        }
+    }
+
+    .Days-Month-Hour{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: max-content;
+        justify-content: space-around;
+        margin-top: 3%;
+        width: 70%;
+        color: white;
+        font-size: 2em;
+        font-weight: 5;
+    
+    }
+}
+}
